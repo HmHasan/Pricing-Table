@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Spartan;
+    text-align: center;
+    font-size: 14px;
+}
+
+.wrapper
+{
+    background: url(../img/pexels-photo-1037992.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pricing-img img {
+    height: 80px;
+    width: 80px;
+}
+
+.section-title {
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.section-title span {
+    color: #26a65b;
+}
+
+.section-title h2 {
+    font-weight: 800;
+}
+
+.pricing-img img {
+    height: 80px;
+    width: 80px;
+    margin: 30px 0;
+}
+
+.section-title {
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.section-title span {
+    color: #26a65b;
+}
+
+.section-title h2 {
+    font-weight: 800;
+}
+
+.single-pricing-item {
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.single-pricing-item:hover
+{
+    border: 2px solid #26a65b;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.pricing-table ul {
+    list-style: none;
+}
+
+.pricing-table ul li {
+    text-align: left;
+    margin-bottom: 15px;
+    position: relative;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    cursor: pointer;
+}
+
+.pricing-table ul li:hover
+{
+    margin-left: 6px;
+}
+
+a.boxed-btn {
+    height: 41px;
+    width: 145px;
+    background: white;
+    border: 1px solid #26A65B;
+    display: block;
+    text-align: center;
+    line-height: 41px;
+    text-decoration: none;
+    border-radius: 17px;
+    color: #333;
+    margin: 0 auto;
+    margin-top: 12px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.pricing-table ul li:before
+{   font-family:fontawesome; 
+    content:"\f00c";
+     position: absolute;
+     left: -19px;
+     color: #26a65b;
+}
+
+.pricing-table ul li.diff::before
+{   font-family:fontawesome; 
+    content:"\f00d";
+     position: absolute;
+     left: -19px;
+     color:red;
+}
+
+.pricing-button h2
+{    
+    font-size: 20px;
+}
+
+.pricing-heading h3
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a.boxed-btn:hover
+{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
